@@ -1,0 +1,139 @@
+
+header{
+    background-color: #512689;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 10px 20px 10px 20px;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../../../../fonts/Roboto-Light.ttf) format(truetype);;
+}
+.header__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+width: auto;
+height: auto;
+left: 199px;
+top: 0px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 75px;
+
+color: #FFFFFF;
+}
+.heading_p{
+width: auto;
+height: auto;
+left: 0px;
+top: 91px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #F8F8F8;
+}
+.exit{
+    display: none
+}
+.accountPanel__button{
+    color: #4C3DB2;
+  padding: 5px 10px 5px 10px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  color:#FFFFFF;
+  cursor: pointer; 
+  background-color: transparent;
+  margin-top: 20px;
+}
+.header_userInfo{
+  display: flex;
+gap: 150px;
+align-items: flex-start;
+padding: 10px 20px 10px 20px;
+justify-content: center;
+
+}
+.header__user{
+  display: flex;
+  gap: 100px;
+}
+
+@media (max-width: 800px){
+    .head{
+        display: flex;
+        gap: 50px;
+    }
+    .heading{
+width: auto;
+height: auto;
+font-size: 36px;
+line-height: 42px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+    }
+
+    .heading_p{
+
+width: auto;
+height: auto;
+
+display: flex;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+    }
+.header_userInfo{
+  display: flex;
+        gap: 50px;
+}
+.header__user{
+  gap: 20px;
+}
+        
+}
+@media (max-width: 620px){
+  .header_userInfo{
+    display: flex;
+          gap: 20px;
+  }
+  .header__user{
+    flex-direction: column;
+    gap: 20px;
+  }
+      
+}
+@media (max-width: 500px){
+  .exit{
+    display: flex;
+  }
+  .accountPanel__button span {
+    display: none;
+  }
+  .accountPanel__button {
+    border: none;
+  }
+  .header__text{
+    margin-left: 20px;
+  }
+}
+
+

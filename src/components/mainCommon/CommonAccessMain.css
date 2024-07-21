@@ -1,0 +1,47 @@
+.users{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.user{
+    Border:2px solid #F8F8F8;
+    border-radius: 5px;
+    padding: 50px;
+}
+.userImg{
+    border-radius: 100px;
+}
+.loadbutton{
+    display: flex;
+    justify-content: center;
+}
+.loadbtn {
+    padding: 8px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    color:#000000;
+    cursor: pointer; 
+    background-color: transparent;
+    margin-top: 20px;
+}
+.selecteduser{
+    display: flex;
+    justify-content: space-around;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 136.19%;
+
+color: #151317;
+}
+
+  @media (max-width: 525px){
+    .selecteduser{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+  }
+  
+  
